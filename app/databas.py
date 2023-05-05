@@ -24,10 +24,3 @@ def get_db():
 
 
 
-# try:
-#     conn = psycopg2.connect(host='localhost', database='fasapi' , user='postgres', password = 'mojtaba386386', cursor_factory=RealDictCursor)
-#     curser = conn.cursor()
-#     print('Database connection was succefull !! ')
-# except Exception as error :
-#     print("Connection to database failed")
-#     print("Error : " , error)
