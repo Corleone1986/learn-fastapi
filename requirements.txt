@@ -22,7 +22,8 @@ Mako==1.2.4
 MarkupSafe==2.1.2
 orjson==3.8.11
 passlib==1.7.4
-psycopg2==2.9.6
+#psycopg2==2.9.6
+psycopg2-binary==2.9.6
 pyasn1==0.5.0
 pycparser==2.21
 pydantic==1.10.7
@@ -40,6 +41,3 @@ ujson==5.7.0
 uvicorn==0.22.0
 watchfiles==0.19.0
 websockets==11.0.2
-
-
-# from install all package use => pip install -r requirements 

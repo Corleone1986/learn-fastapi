@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: fastlearn
+    src: ./
+    engine: python3.9
+    primary: true
+    run: uvicorn app.main:app
+    dev: .venv/bin/uvicorn app.main:app --reload
